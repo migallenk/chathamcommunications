@@ -1,0 +1,217 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    /*background-color:#424B54;*/
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    background-size:cover;
+    /*background-image: url("Images/index-main.png");*/
+}
+
+body.home {
+    background-image: url("Images/index-main.png");
+}
+
+body.about {
+    background-image:url("Images/about-main2.jpg");
+}
+
+body.services {
+    background-image:url("Images/services-main 2.jpg");
+}
+
+body.partners {
+    background-image:url("Images/partners-main 2.jpg");
+}
+
+body.contact {
+    background-image: url("Images/contact-main.jpeg");
+}
+
+#logonav {
+    display: flex; 
+    text-align:center;
+    width:100%;
+    /*padding:25px;*/
+    background-color:black;
+    margin-top:40px;
+}
+
+#logonav div:first-child {
+    /*border: red solid 5px;*/
+    float: left;
+    padding-left:25px;
+    padding-top:25px;
+}
+
+#logonav div:nth-child(2) {
+    /*border: blue solid 5px;*/
+    float: right;
+    width:100%;
+}
+
+#logonav ul {
+    text-align:right;
+    padding-right:10px;
+    padding-top:124px;
+}
+
+#logonav ul li {
+    list-style: none;
+    display: inline-block;
+    margin:0px 15px;
+    color:#FFFFFF;
+    /*border:black 4px solid;*/
+    padding:10px;
+}
+
+#logonav ul li:hover {
+    /*need some sort of hover transformation*/
+}
+
+.indexmain a {
+    font-size:80px;
+}
+
+.indexmain p {
+    font-style: italic;
+    font-size:25px;
+    margin: 100px 250px;
+    padding:50px;
+    text-align:center;
+    border:white solid 1px;
+}
+
+.indexmain {
+    text-align:center;
+}
+
+.indexmain h1 {
+    text-align:center;
+    margin-top:25px;
+}
+
+.indexmain div {
+    text-align:center;
+}
+
+.indexmain img {
+    margin:0px 40px;
+    margin-bottom:25px;
+}
+.partnersmain {
+    background-color:black;
+    margin:50px;
+    padding:25px;
+    /*text-align:center;*/
+}
+
+.partnersmain ul li {
+    display:inline-block;
+    margin:35px;
+}
+
+.mainstuff {
+    background-color:black;
+    margin:50px;
+    padding:25px;
+}
+
+.mainstuff ul li {
+    display:inline-block;
+    text-align:center;
+    padding:15px;
+    margin:25px;
+}
+
+/*services page below*/
+
+/*.mainstuff {*/
+/*    background-color:black;*/
+/*    margin:50px;*/
+/*    padding:25px;*/
+/*    text-align:center;*/
+/*}*/
+
+/*.mainstuff ul {*/
+/*    text-align:left;*/
+/*    margin:50px;*/
+/*    list-style:none;*/
+/*}*/
+
+/*.mainstuff ul li {*/
+/*    border:white solid 2px;*/
+/*    padding: 60px 80px;*/
+/*    margin:20px;*/
+/*    text-align:center;*/
+/*}*/
+
+/*insert main page image*/
+
+/*insert main page content, form, para, etc*/
+
+.map {
+    margin:25px;
+    display:flex;
+    width:100%;
+    text-align:center;
+    margin:50px;
+    padding:25px;
+}
+
+.map iframe {
+    border: black solid 7px;
+}
+
+.map div:first-child {
+    float:left;
+}
+
+.map div:nth-child(2) {
+    float: right;
+    /*padding:300px;*/
+    border: black solid 7px;
+    /*margin: 35px;*/
+    margin-left:35px;
+    width:600px;
+    height:600px;
+    background-color:black;
+}
+
+.map form {
+    text-align:center;
+    margin-top:35px;
+}
+
+
+.map button {
+    background-color:black;
+    color:white;
+    width:100px;
+    height:25px;
+    border:white solid 2px;
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map button:hover {
+    background-color:white;
+    color:black;
+}
+
+.footer {
+    /*background-color:#424B54;*/
+    /*background-color:#93A8AC;*/
+    /*background-color:#9B6A6C;*/
+    background-color:black;
+    text-align:center;
+    padding:10px 0px;
+    margin-bottom:40px;
+}
+
+.footer img {
+    margin:2px;
+}
